@@ -14,6 +14,7 @@ namespace patrns
             comp.Launch("Win8");
             Console.WriteLine(comp.Os.Name);
 
+            //Невозможно изменить имя...
             comp.Os = Os.getInstance("Windows 10");
             Console.WriteLine(comp.Os.Name);
 
