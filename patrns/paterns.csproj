@@ -43,19 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Developers\CsDeveloder.cs" />
-    <Compile Include="Developers\IDeveloper.cs" />
-    <Compile Include="Developers\JavaDeveloper.cs" />
-    <Compile Include="Developers\PythonDeveloper.cs" />
-    <Compile Include="Factory\CsDeveloperFactory.cs" />
-    <Compile Include="Factory\IDeveloperFactory.cs" />
-    <Compile Include="Factory\JavaDeveloperFactory.cs" />
-    <Compile Include="Factory\PythonDeveloperFactory.cs" />
+    <Compile Include="client\Hero.cs" />
+    <Compile Include="factorys\ElfFactory.cs" />
+    <Compile Include="factorys\HeroFactory.cs" />
+    <Compile Include="factorys\VoinFactory.cs" />
+    <Compile Include="movments\FlyMovement.cs" />
+    <Compile Include="movments\Movement.cs" />
+    <Compile Include="movments\RunMovement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wepons\Arbalet.cs" />
+    <Compile Include="wepons\Sword.cs" />
+    <Compile Include="wepons\Wepon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

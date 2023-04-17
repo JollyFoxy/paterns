@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace patrns.Factory
+namespace paterns.movments
 {
-    class CsDeveloperFactory : IDeveloperFactory
+    class FlyMovement : Movement
     {
-        public IDeveloper CreateDeveloper()
+        public override void Move()
         {
-            return new CsDeveloder();
+            Console.WriteLine("Летим");
         }
     }
 }

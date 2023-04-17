@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace patrns
+namespace paterns.wepons
 {
-    interface IDeveloper
+    abstract class Wepon
     {
-        void WriteCode();
-
+        public abstract void Hit();
     }
 }

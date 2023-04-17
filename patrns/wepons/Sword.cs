@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace patrns.Developers
+namespace paterns.wepons
 {
-    class JavaDeveloper: IDeveloper
+    class Sword : Wepon
     {
-        public void WriteCode()
+        public override void Hit()
         {
-            Console.WriteLine("java code");
+            Console.WriteLine("Удар мечём");
         }
     }
 }

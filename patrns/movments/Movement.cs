@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace patrns.Factory
+namespace paterns.movments
 {
-    interface IDeveloperFactory
+    abstract class Movement
     {
-        IDeveloper CreateDeveloper();
+        abstract public void Move();
     }
 }
