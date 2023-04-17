@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace paterns.wepons
+namespace patrns.Activitys
 {
-    class Sword : Wepon
+    class Sleeping : IActivity
     {
-        public override void Hit()
+        public void DoIt()
         {
-            Console.WriteLine("Удар мечём");
+            Console.WriteLine("В отрубе жеском...");
         }
     }
 }

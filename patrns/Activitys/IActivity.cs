@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace paterns.wepons
+namespace patrns.Activitys
 {
-    abstract class Wepon
+    interface IActivity
     {
-        public abstract void Hit();
+        void DoIt();
     }
 }

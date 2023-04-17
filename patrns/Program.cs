@@ -1,5 +1,5 @@
-﻿using patrns.client;
-using patrns.factorys;
+﻿using patrns;
+using patrns.Activitys;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,15 +12,16 @@ namespace paterns
     {
         static void Main(string[] args)
         {
-            Hero elf = new Hero(new ElfFactory());
-            elf.Hit();
-            elf.Run();
+            Developer developer = new Developer();
 
-            Console.WriteLine("\n=========================================\n");
+            developer.setActivity(new Coding());
+            developer.executeActivity();
 
-            Hero voin = new Hero(new VoinFactory());
-            voin.Hit();
-            voin.Run();
+            developer.setActivity(new Reading());
+            developer.executeActivity();
+
+            developer.setActivity(new Sleeping());
+            developer.executeActivity();
 
             Console.ReadKey();
         }

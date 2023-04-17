@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace paterns.movments
+namespace patrns.Activitys
 {
-    class RunMovement : Movement
+    class Reading : IActivity
     {
-        public override void Move()
+        public void DoIt()
         {
-            Console.WriteLine("Бегаем");
+            Console.WriteLine("Читаем жестка...");
         }
     }
 }

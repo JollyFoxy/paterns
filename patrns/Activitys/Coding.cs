@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace paterns.movments
+namespace patrns.Activitys
 {
-    class FlyMovement : Movement
+    class Coding : IActivity
     {
-        public override void Move()
+        public void DoIt()
         {
-            Console.WriteLine("Летим");
+            Console.WriteLine("Coding...");
         }
     }
 }
