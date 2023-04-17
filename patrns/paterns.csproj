@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Os.cs" />
-    <Compile Include="Computer.cs" />
+    <Compile Include="Developers\CsDeveloder.cs" />
+    <Compile Include="Developers\IDeveloper.cs" />
+    <Compile Include="Developers\JavaDeveloper.cs" />
+    <Compile Include="Developers\PythonDeveloper.cs" />
+    <Compile Include="Factory\CsDeveloperFactory.cs" />
+    <Compile Include="Factory\IDeveloperFactory.cs" />
+    <Compile Include="Factory\JavaDeveloperFactory.cs" />
+    <Compile Include="Factory\PythonDeveloperFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

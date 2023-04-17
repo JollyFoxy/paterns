@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace patrns
+namespace patrns.Developers
 {
-    class Computer
+    class JavaDeveloper: IDeveloper
     {
-        public Os Os { get; set; }
-        public void Launch(string osName)
+        public void WriteCode()
         {
-            Os = Os.getInstance(osName);
+            Console.WriteLine("java code");
         }
     }
 }
