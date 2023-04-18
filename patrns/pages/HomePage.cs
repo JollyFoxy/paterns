@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace patrns.Activitys
+namespace patrns.pages
 {
-    class Sleeping : IActivity
+    class HomePage : BasePage
     {
-        public void DoIt()
+        protected override void ShowContent()
         {
-            Console.WriteLine("В отрубе жеском...");
+            Console.WriteLine("Welcome...");
         }
     }
 }

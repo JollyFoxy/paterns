@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace patrns.Activitys
+namespace patrns.pages
 {
-    class Reading : IActivity
+    class NewsPage : BasePage
     {
-        public void DoIt()
+        protected override void ShowContent()
         {
-            Console.WriteLine("Читаем жестка...");
+            Console.WriteLine("News...");
         }
     }
 }

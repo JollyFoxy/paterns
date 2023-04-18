@@ -1,5 +1,4 @@
-﻿using patrns;
-using patrns.Activitys;
+﻿using patrns.pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,16 +11,12 @@ namespace paterns
     {
         static void Main(string[] args)
         {
-            Developer developer = new Developer();
+            HomePage homePage = new HomePage();
+            NewsPage newsPage = new NewsPage();
 
-            developer.setActivity(new Coding());
-            developer.executeActivity();
-
-            developer.setActivity(new Reading());
-            developer.executeActivity();
-
-            developer.setActivity(new Sleeping());
-            developer.executeActivity();
+            homePage.ShowPage();
+            Console.WriteLine("\n==================================================\n");
+            newsPage.ShowPage();
 
             Console.ReadKey();
         }

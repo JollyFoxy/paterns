@@ -43,11 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activitys\Coding.cs" />
-    <Compile Include="Activitys\IActivity.cs" />
-    <Compile Include="Activitys\Reading.cs" />
-    <Compile Include="Activitys\Sleeping.cs" />
-    <Compile Include="Developer.cs" />
+    <Compile Include="pages\BasePage.cs" />
+    <Compile Include="pages\HomePage.cs" />
+    <Compile Include="pages\NewsPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
