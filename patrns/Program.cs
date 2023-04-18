@@ -22,7 +22,7 @@ namespace paterns
             jobSite.addObserver(observer1);
             jobSite.addObserver(observer2);
 
-            Console.WriteLine("\n--------------------------\n");
+            Console.WriteLine("\n----------------------------\n");
 
             jobSite.addVacacies("Садовник");
 
